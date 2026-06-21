@@ -11,8 +11,11 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+<<<<<<< HEAD
 content/Inspiring/
 content/Experiments/
 content/Middays/
 content/Evergreen/
 content/Worldbuilding/
+=======
+>>>>>>> 9cf87ff1c248a8ca551093214b0fec3b31415009
