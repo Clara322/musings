@@ -1,4 +1,4 @@
-
+#past
 "learning how to store information over extended time intervals via backprop takes a long time because of the insufficient, decaying backflow" - this is the [[vanishing gradient problem]] in [[RNNs]] 
 
 what's novel: new RNN architecture that has constant error propagation (eg doesn't suffer from vanishing nor exploding gradienet problem) called LSTM
@@ -16,7 +16,7 @@ That's why we need gates -- learn different things for different purposes
 * output gate - decides how much of the state t to read out
 * forget gate - decides how much of t-1 state we should take into account
 * candidate - the input at time t itself
-* ![[Pasted image 20260609180035.png]]
+![[Pasted image 20260609180035.png]]
 
 it contains state at each time step which is different from hidden layers in default deep nets (how?) - because activations in hidden layers disappear after one input/output computation but for RNN state it remains
 $h_t = tanh(W_{hh} · h_{t-1} + W_{xh} · x_t + b)$

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: apparent horizon
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -44,7 +44,7 @@ configuration:
         secondary: "#7b97aa"
         tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        textHighlight: "#000000"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -163,7 +163,7 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -191,7 +191,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -213,7 +213,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -228,10 +228,10 @@ plugins:
       priority: 10
   - source: github:quartz-community/footer
     enabled: true
-    options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+    # options:
+    #   links:
+    #     GitHub: https://github.com/jackyzha0/quartz
+    #     Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -254,6 +254,9 @@ plugins:
         - description
         - tags
         - aliases
+        - title
+        - source
+        - author
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
@@ -269,7 +272,12 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: calm-nights
+      options:
+        colors:
+          textHighlight: "#000000"
+          darkMode:
+            textHighlight: "#000000"
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:

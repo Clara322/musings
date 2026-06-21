@@ -1,3 +1,5 @@
+#future 
+
 or: the researchers only care about the weights but that is probably a mistake
 
 https://yoonholee.com/blog/2026/we-should-take-text-optimization-more-seriously/

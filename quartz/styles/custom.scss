@@ -1,3 +1,44 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+a.internal.tag-link {
+  background-color: #2e2e3a !important;
+  color: #c0caf5 !important;
+  height: fit-content;
+  align-self: center;
+}
+a.internal.tag-link:hover {
+  background-color: #3b3b4d !important;
+}
+
+// In-text internal links
+a.internal-link {
+  background-color: #62628a73 !important;
+  color: #a92020;
+}
+
+// Row alignment: line up date, title, and tag
+li.section-li > .section {
+  align-items: center;
+}
+ul.tags {
+  align-self: center;
+  align-items: center;
+}
+
+// Explorer title clipping
+.explorer {
+  overflow: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+.explorer button,
+.explorer h2 {
+  line-height: 1.5 !important;
+  overflow: visible !important;
+  height: auto !important;
+}
+
+a.tag-link.internal-link {
+  display: none !important;
+}

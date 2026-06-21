@@ -11,6 +11,8 @@ tags:
 ---
 ## A free introduction to quantum computing and quantum mechanics
 
+Source https://quantum.country/
+
 By working through these essays, you will understand in detail all the basic principles of quantum computing and quantum mechanics, plus two important applications: the quantum search algorithm and quantum teleportation.
 
 You’ll need familiarity and comfort with the basics of linear algebra and complex numbers. We'll teach you the rest.

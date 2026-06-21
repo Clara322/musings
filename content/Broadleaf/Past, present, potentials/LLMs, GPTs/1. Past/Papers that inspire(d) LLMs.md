@@ -1,4 +1,4 @@
-
+#past
 **1997**
 
 - LSTM — _Long Short-Term Memory_ (Hochreiter & Schmidhuber), _Neural Computation_. PDF: [https://www.bioinf.jku.at/publications/older/2604.pdf](https://www.bioinf.jku.at/publications/older/2604.pdf) · Official: [https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory](https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory)

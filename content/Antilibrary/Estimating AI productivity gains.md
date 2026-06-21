@@ -15,6 +15,8 @@ Economic Research
 
 25 Nov 2025
 
+Source https://www.anthropic.com/research/estimating-productivity-gains
+
 [Read as a PDF](https://www-cdn.anthropic.com/e5645986a7ce8fbcc48fa6d2fc67753c87642c30.pdf)
 
 ![Estimating AI productivity gains from Claude conversations](https://www-cdn.anthropic.com/images/4zrzovbb/website/1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
