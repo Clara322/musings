@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: Clara322.github.io/musings
+  baseUrl: clara322.github.io/musings
   ignorePatterns:
     - Inspiring
     - Experiments
