@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: clara322.github.io/musings
+  baseUrl: notes.clearlyliminal.dev
   ignorePatterns:
     - Inspiring
     - Experiments
