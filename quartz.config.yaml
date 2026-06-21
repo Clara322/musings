@@ -254,7 +254,6 @@ plugins:
         - description
         - tags
         - aliases
-        - title
         - source
         - author
       excludedProperties: []
